@@ -60,9 +60,10 @@ The author assumes that you will want to perform routine operations, the followi
 
 The author assumes the following (note that your environment differences should be accounted for):
 - that you are running Red Hat Enterprise Linux 7.x (or an equivalent distribution)
-  - SAS supports other operating systems, please refer to the administration guide for alternative commands 
+  - SAS supports [other operating systems, for example RHEL 8.x](https://support.sas.com/en/documentation/third-party-software-reference/viya/35/support-for-operating-systems.html), please refer to the administration guide for alternative commands for your OS
 - that you have mirrored the SAS RPM's down to a `repo` host, this could also be called a bastion host
 - that Ansible is {still} installed and operable on that `repo` host
+  - SAS [supports these versions of Ansible](https://support.sas.com/en/documentation/third-party-software-reference/viya/35/support-for-operating-systems.html#ansible)
 - that you have access to the installation service account, perhaps the account was named `viyadep`
 - that you have the ability to issue commands as `viyadep` and/or `sudo` -- or that you could impersonate (su) `viyadep` and/or `root`
 - that you have a common installation directory where the current installation files are located:
